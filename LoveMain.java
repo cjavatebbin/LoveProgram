@@ -11,16 +11,22 @@
  * If the word "hate"occurs more than once in the line, 
  * your program should replace only the first occurrence of "hate".
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Terence Wu
+ * @version 9/7/2024
  */
 
 import java.util.Scanner;
 
 public class LoveMain {
+    
     public static void main(String[] args) {
-        // TODO: your code here
 
+        Scanner s = new Scanner(System.in);
+        Love l = new Love();
+        
+        System.out.println("Enter a line of text: ");
+        string str = s.nextLine();
+        System.out.println("I have rephrased that to read: "+s.loveNotHate(str);
     }
 
 }
